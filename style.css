@@ -1,0 +1,50 @@
+body{
+    background: rgb(238, 119, 119);
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+/*lteral*/
+.lateral{
+    grid-column: 4/4;
+}
+
+.cajas{
+    border: 1px solid black;
+    background: rgb(202, 202, 202);
+    margin: 15px;
+}
+
+
+.caja{
+    border: 1px solid black;
+    margin: 13px;
+    padding: 12px;
+}
+
+
+
+/*eslayder*/
+
+.eslayder{
+    max-width: 100px;
+}
+
+.fon{
+ width: 83rem;
+ height: 260px;
+ background: black;
+}
+
+.textof{
+    color: aliceblue;
+}
+
+/*secciones*/
+.seciones{
+    grid-column: 1/4;
+}
