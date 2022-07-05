@@ -15,6 +15,15 @@
           <li class="ajustes">ajustes</li>
           <li class="contacto">contacto</li>
         </ul>
+        <form>
+          <!-- esto es un lista de selecion -->
+          <label for="selection">selector</label>
+          <select id="selection">
+            <option>bucar</option>
+            <option>correo</option>
+            <option>sobre</option>
+          </select>
+        </form>
       </nav>
     </header>
 
@@ -24,7 +33,7 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing
         </h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius.</p>
-
+        <!-- botones para cambiar el tamaño -->
         <div class="botones">
           <button type="button">comenzar</button>
           <button type="button">finalizar</button>
@@ -79,12 +88,11 @@
           </p>
         </article>
       </section>
-
+      <!-- barra lateral -->
       <aside class="lateral">
         <div class="cajas">
           <h4>Lorem ipsum dolor sit amet.</h4>
           <div class="caja">
-
             <form action="" method="post">
               <input
                 type="text"
@@ -98,16 +106,31 @@
           </div>
         </div>
 
+        <!-- caja de lista     -->
         <div class="cajas">
           <div class="caja2">
             <h4>Lorem ipsum dolor sit amet.</h4>
-            <ol>
-              <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-              <li><a href="#">Lorem, ipsum dolor.</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-              <li><a href="#">Lorem ipsum dolor sit.</a></li>
-            </ol>
+            <!-- lista de elemento y buscador -->
+            <form>
+              <input list="lista" />
+              <details id="lista">
+                <option value="">
+                  <a href="">Lorem ipsum dolor sit amet.</a>
+                </option>
+                <option value="">
+                  <a href=" ">Lorem ipsum dolor sit amet.</a>
+                </option>
+                <option value="">
+                  <a href=" ">Lorem ipsum dolor sit amet.</a>
+                </option>
+                <option value="">
+                  <a href=" ">Lorem ipsum dolor sit amet.</a>
+                </option>
+                <option value="">
+                  <a href=" ">Lorem ipsum dolor sit amet.</a>
+                </option>
+              </details>
+            </form>
           </div>
         </div>
       </aside>
@@ -119,13 +142,18 @@
             quidem culpa porro minus in aut exercitationem, accusantium illum
             voluptatem iusto.
           </p>
+          <form>
+            <!-- esto esta conectado juntos -->
+            <label for="texto">nombre</label>
+            <textarea id="texto"></textarea>
+          </form>
         </div>
       </div>
     </div>
 
     <footer class="pie">
       <div class="contacto">
-        <h4>correo: <a target="_blank">kelvinabhe12@gmil.om</a></h4>
+        <h4>correo: kelvinabhe12@gmil.com</h4>
       </div>
     </footer>
   </body>
